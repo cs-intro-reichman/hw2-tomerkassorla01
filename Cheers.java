@@ -10,13 +10,12 @@ public class Cheers {
                     System.out.println("Give me an " + c1 + ": " + c1 + "!");
                 } 
                 else {
-                    System.out.println("Give me a " + c1 + ": " + c1 + "!");
+                    System.out.println("Give me a  " + c1 + ": " + c1 + "!");
                 }
             }
             System.out.println("What does that spell?");
             for (int i = 0; i < counter; i++) {
                 System.out.println(cheeringInput + "!!!");
             }
-            System.out.println("");
         }
 }
